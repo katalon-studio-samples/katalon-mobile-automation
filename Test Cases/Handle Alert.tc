@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Handle Alert</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a577f5ed-f3a5-47be-b1ca-5614ad089b81</testCaseGuid>
+   <variable>
+      <defaultValue>'Lorem ipsum dolor sit aie consectetur adipiscing\\nPlloaso mako nuto siwuf cakso dodtos anr koop.'</defaultValue>
+      <description></description>
+      <id>65fa9883-7035-4c12-bc8c-d17a2fd8539e</id>
+      <masked>false</masked>
+      <name>expected_Alert</name>
+   </variable>
+</TestCaseEntity>

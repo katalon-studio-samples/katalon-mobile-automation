@@ -1,0 +1,609 @@
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 50324
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 50325
+[Appium]   tmpDir: C:\Users\Venkat\AppData\Local\Temp\\Katalon\Appium\Temp1503481243090
+[Appium] Appium REST http interface listener started on 0.0.0.0:50324
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 17 ms - 83 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 5 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Venkat\\Katlon_Mobile\\Scroll Project\\Data Files\\ApiDemos.apk","noReset":true,"newCommandTimeout":1800,"udid":"4baec80d","platformName":"Android","deviceName":"samsung SM-G530H 5.0.2","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   app: 'C:\\Users\\Venkat\\Katlon_Mobile\\Scroll Project\\Data Files\\ApiDemos.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   udid: '4baec80d'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-G530H 5.0.2'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 195c628f-bc3f-424c-8cdc-baf23d0d1ae5
+[AndroidDriver] Java version is: 1.8.0_102
+
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 4baec80d
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[BaseDriver] Using local app 'C:\Users\Venkat\Katlon_Mobile\Scroll Project\Data Files\ApiDemos.apk'
+[AndroidDriver] Starting Android session
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Cannot read version codes of C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[AndroidDriver] Remote apk path is /data/local/tmp/c651f3c857d9320dc2cbd3fdc560ca7d.apk
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[Appium] New AndroidDriver session created successfully, session 195c628f-bc3f-424c-8cdc-baf23d0d1ae5 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 20060 ms - 1047 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 4 ms - 83 
+[HTTP] --> GET /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5/source 200 260 ms - 8236 
+[HTTP] --> GET /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5/screenshot 200 1122 ms - 57422 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Emitting system alert message
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Emitting system alert message
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Emitting system alert message
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Emitting system alert message
+[HTTP] --> GET /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5/source 200 415 ms - 5756 
+[HTTP] --> GET /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5/screenshot 200 1768 ms - 52554 
+[HTTP] --> GET /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5/source 200 317 ms - 10350 
+[HTTP] --> GET /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5/screenshot 200 1574 ms - 140570 
+[Logcat] Logcat terminated with code 0, signal null
+[UiAutomator] UiAutomator exited unexpectedly with code 0, signal null
+[Appium] Closing session, cause was 'UiAUtomator shut down unexpectedly'
+[Appium] Removing session 195c628f-bc3f-424c-8cdc-baf23d0d1ae5 from our master session list
+Unhandled rejection Error: No device connected, cannot run adb shell command 'am force-stop io.appium.android.apis'
+    at ADB.callee$0$0$ (../../../lib/tools/system-calls.js:237:11)
+    at tryCatch (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+[HTTP] --> GET /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5/source {}
+[HTTP] <-- GET /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5/source 404 3 ms - 131 
+[HTTP] --> GET /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5/source {}
+[HTTP] <-- GET /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5/source 404 1 ms - 131 
+[HTTP] --> DELETE /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5 {}
+[HTTP] <-- DELETE /wd/hub/session/195c628f-bc3f-424c-8cdc-baf23d0d1ae5 404 2 ms - 131 
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 50543
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 50544
+[Appium]   tmpDir: C:\Users\Venkat\AppData\Local\Temp\\Katalon\Appium\Temp1503482237364
+[Appium] Appium REST http interface listener started on 0.0.0.0:50543
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 12 ms - 83 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 5 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Venkat\\Katlon_Mobile\\Scroll Project\\Data Files\\ApiDemos.apk","noReset":true,"newCommandTimeout":1800,"udid":"4baec80d","platformName":"Android","deviceName":"samsung SM-G530H 5.0.2","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   app: 'C:\\Users\\Venkat\\Katlon_Mobile\\Scroll Project\\Data Files\\ApiDemos.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   udid: '4baec80d'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-G530H 5.0.2'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 8a95e5ab-c764-47aa-942e-02fc0fbdc2d4
+[AndroidDriver] Java version is: 1.8.0_102
+
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 50551
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 50553
+[Appium]   tmpDir: C:\Users\Venkat\AppData\Local\Temp\\Katalon\Appium\Temp1503482241276
+[Appium] Appium REST http interface listener started on 0.0.0.0:50551
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 19 ms - 83 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 6 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Venkat\\Katlon_Mobile\\Scroll Project\\Data Files\\ApiDemos.apk","noReset":true,"newCommandTimeout":1800,"udid":"4baec80d","platformName":"Android","deviceName":"samsung SM-G530H 5.0.2","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   app: 'C:\\Users\\Venkat\\Katlon_Mobile\\Scroll Project\\Data Files\\ApiDemos.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   udid: '4baec80d'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-G530H 5.0.2'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 88266b1f-f74c-44de-afd2-dfb04cefeef0
+[AndroidDriver] Java version is: 1.8.0_102
+
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[ADB] Error: Error while getting connected devices. Original error: Command 'D\:\\Katalon_4.7.2\\configuration\\resources\\tools\\android_sdk\\platform-tools\\adb.exe devices' exited with code 1
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:63:13)
+    at ADB.callee$0$0$ (../../../lib/tools/system-calls.js:123:9)
+    at tryCatch (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+ Error: Error while getting connected devices. Original error: Command 'D\:\\Katalon_4.7.2\\configuration\\resources\\tools\\android_sdk\\platform-tools\\adb.exe devices' exited with code 1
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:63:13)
+    at ADB.callee$0$0$ (../../../lib/tools/system-calls.js:123:9)
+    at tryCatch (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+[MJSONWP] Encountered internal error running command: Error: Could not find a connected Android device.
+    at ADB.getDevices$ (../../../lib/tools/system-calls.js:132:13)
+    at tryCatch (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at invoke (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at enqueueResult (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:185:17)
+    at Promise.F (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+    at AsyncIterator.enqueue (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at Object.runtime.async (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+    at getDevices (../../../lib/tools/system-calls.js:135:18)
+    at ADB.getDevices$ (../../../lib/tools/system-calls.js:149:20)
+    at tryCatch (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+[HTTP] <-- POST /wd/hub/session 500 30488 ms - 179 
+[MJSONWP] Encountered internal error running command: Error: Could not find a connected Android device.
+    at ADB.getDevices$ (../../../lib/tools/system-calls.js:132:13)
+    at tryCatch (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at invoke (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at enqueueResult (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:185:17)
+    at Promise.F (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+    at AsyncIterator.enqueue (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at Object.runtime.async (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+    at getDevices (../../../lib/tools/system-calls.js:135:18)
+    at ADB.getDevices$ (../../../lib/tools/system-calls.js:149:20)
+    at tryCatch (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+[HTTP] <-- POST /wd/hub/session 500 30265 ms - 179 
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 50762
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 50764
+[Appium]   tmpDir: C:\Users\Venkat\AppData\Local\Temp\\Katalon\Appium\Temp1503482474436
+[Appium] Appium REST http interface listener started on 0.0.0.0:50762
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 19 ms - 83 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 5 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Venkat\\Katlon_Mobile\\Scroll Project\\Data Files\\ApiDemos.apk","noReset":true,"newCommandTimeout":1800,"udid":"4baec80d","platformName":"Android","deviceName":"samsung SM-G530H 5.0.2","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   app: 'C:\\Users\\Venkat\\Katlon_Mobile\\Scroll Project\\Data Files\\ApiDemos.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   udid: '4baec80d'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-G530H 5.0.2'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: d1ac77ea-1b69-4ad1-a174-939c349c33b0
+[AndroidDriver] Java version is: 1.8.0_102
+
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 4baec80d
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[BaseDriver] Using local app 'C:\Users\Venkat\Katlon_Mobile\Scroll Project\Data Files\ApiDemos.apk'
+[AndroidDriver] Starting Android session
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Cannot read version codes of C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[AndroidDriver] Remote apk path is /data/local/tmp/c651f3c857d9320dc2cbd3fdc560ca7d.apk
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[Appium] New AndroidDriver session created successfully, session d1ac77ea-1b69-4ad1-a174-939c349c33b0 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 21462 ms - 1047 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 5 ms - 83 
+[HTTP] --> GET /wd/hub/session/d1ac77ea-1b69-4ad1-a174-939c349c33b0/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/d1ac77ea-1b69-4ad1-a174-939c349c33b0/source 200 200 ms - 8236 
+[HTTP] --> GET /wd/hub/session/d1ac77ea-1b69-4ad1-a174-939c349c33b0/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/d1ac77ea-1b69-4ad1-a174-939c349c33b0/screenshot 200 1153 ms - 60598 
+[HTTP] --> GET /wd/hub/session/d1ac77ea-1b69-4ad1-a174-939c349c33b0/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/d1ac77ea-1b69-4ad1-a174-939c349c33b0/source 200 123 ms - 5756 
+[HTTP] --> GET /wd/hub/session/d1ac77ea-1b69-4ad1-a174-939c349c33b0/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/d1ac77ea-1b69-4ad1-a174-939c349c33b0/screenshot 200 1220 ms - 49682 
+[HTTP] --> GET /wd/hub/session/d1ac77ea-1b69-4ad1-a174-939c349c33b0/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/d1ac77ea-1b69-4ad1-a174-939c349c33b0/source 200 101 ms - 10350 
+[HTTP] --> GET /wd/hub/session/d1ac77ea-1b69-4ad1-a174-939c349c33b0/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/d1ac77ea-1b69-4ad1-a174-939c349c33b0/screenshot 200 1352 ms - 140450 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Emitting system alert message
+[HTTP] --> DELETE /wd/hub/session/d1ac77ea-1b69-4ad1-a174-939c349c33b0 {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[ADB] No uiautomator process found to kill, continuing...
+[Appium] Removing session d1ac77ea-1b69-4ad1-a174-939c349c33b0 from our master session list
+[HTTP] <-- DELETE /wd/hub/session/d1ac77ea-1b69-4ad1-a174-939c349c33b0 200 2489 ms - 76 
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 60431
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 60432
+[Appium]   tmpDir: C:\Users\Venkat\AppData\Local\Temp\\Katalon\Appium\Temp1503491287582
+[Appium] Appium REST http interface listener started on 0.0.0.0:60431
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 15 ms - 83 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 5 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Venkat\\Katlon_Mobile\\Scroll Project\\Data Files\\ApiDemos.apk","noReset":true,"newCommandTimeout":1800,"udid":"4baec80d","platformName":"Android","deviceName":"samsung SM-G530H 5.0.2","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   app: 'C:\\Users\\Venkat\\Katlon_Mobile\\Scroll Project\\Data Files\\ApiDemos.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   udid: '4baec80d'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-G530H 5.0.2'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: fa0c80ab-bafb-4d2a-8843-19053e54192b
+[AndroidDriver] Java version is: 1.8.0_102
+
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 4baec80d
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[BaseDriver] Using local app 'C:\Users\Venkat\Katlon_Mobile\Scroll Project\Data Files\ApiDemos.apk'
+[AndroidDriver] Starting Android session
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Cannot read version codes of C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[AndroidDriver] Remote apk path is /data/local/tmp/c651f3c857d9320dc2cbd3fdc560ca7d.apk
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[Appium] New AndroidDriver session created successfully, session fa0c80ab-bafb-4d2a-8843-19053e54192b added to master session list
+[HTTP] <-- POST /wd/hub/session 200 19397 ms - 1047 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 4 ms - 83 
+[HTTP] --> DELETE /wd/hub/session/fa0c80ab-bafb-4d2a-8843-19053e54192b {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[ADB] No uiautomator process found to kill, continuing...
+[Appium] Removing session fa0c80ab-bafb-4d2a-8843-19053e54192b from our master session list
+[HTTP] <-- DELETE /wd/hub/session/fa0c80ab-bafb-4d2a-8843-19053e54192b 200 2146 ms - 76 
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 60633
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 60634
+[Appium]   tmpDir: C:\Users\Venkat\AppData\Local\Temp\\Katalon\Appium\Temp1503491321067
+[Appium] Appium REST http interface listener started on 0.0.0.0:60633
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 26 ms - 83 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 5 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Venkat\\Katlon_Mobile\\Scroll Project\\Data Files\\Drag and Drop.apk","noReset":true,"newCommandTimeout":1800,"udid":"4baec80d","platformName":"Android","deviceName":"samsung SM-G530H 5.0.2","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   app: 'C:\\Users\\Venkat\\Katlon_Mobile\\Scroll Project\\Data Files\\Drag and Drop.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   udid: '4baec80d'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-G530H 5.0.2'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 64e6e275-f468-4b5b-9775-953163b41dcd
+[AndroidDriver] Java version is: 1.8.0_102
+
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 4baec80d
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[BaseDriver] Using local app 'C:\Users\Venkat\Katlon_Mobile\Scroll Project\Data Files\Drag and Drop.apk'
+[AndroidDriver] Starting Android session
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Cannot read version codes of C:\Users\Venkat\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from D:\Katalon_4.7.2\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[AndroidDriver] Remote apk path is /data/local/tmp/f56537fea4e16641b5a15a99cba2b9ce.apk
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[Appium] New AndroidDriver session created successfully, session 64e6e275-f468-4b5b-9775-953163b41dcd added to master session list
+[HTTP] <-- POST /wd/hub/session 200 17493 ms - 1077 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 5 ms - 83 
+[HTTP] --> GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/source 200 259 ms - 15612 
+[HTTP] --> GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/screenshot 200 1317 ms - 278502 
+[HTTP] --> GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/source 200 102 ms - 19650 
+[HTTP] --> GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/screenshot 200 1103 ms - 94378 
+[HTTP] --> GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/source 200 171 ms - 19650 
+[HTTP] --> GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/screenshot 200 1245 ms - 94178 
+[HTTP] --> GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/source 200 105 ms - 19650 
+[HTTP] --> GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/screenshot 200 1214 ms - 94014 
+[HTTP] --> GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/source 200 119 ms - 19650 
+[HTTP] --> GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/screenshot 200 1139 ms - 94078 
+[HTTP] --> GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/source 200 129 ms - 15612 
+[HTTP] --> GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd/screenshot 200 1489 ms - 278586 
+[HTTP] --> DELETE /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[ADB] No uiautomator process found to kill, continuing...
+[Appium] Removing session 64e6e275-f468-4b5b-9775-953163b41dcd from our master session list
+[HTTP] <-- DELETE /wd/hub/session/64e6e275-f468-4b5b-9775-953163b41dcd 200 2185 ms - 76 
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 53269
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 53273
+[Appium]   tmpDir: C:\Users\User\AppData\Local\Temp\\Katalon\Appium\Temp1503502647555
+[Appium] Appium REST http interface listener started on 0.0.0.0:53269
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 22 ms - 83 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 8 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\User\\Katalon Studio\\Scroll Project\\Data Files\\ApiDemos.apk","noReset":true,"newCommandTimeout":1800,"udid":"4baec80d","platformName":"Android","deviceName":"samsung SM-G530H 5.0.2","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   app: 'C:\\Users\\User\\Katalon Studio\\Scroll Project\\Data Files\\ApiDemos.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   udid: '4baec80d'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-G530H 5.0.2'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 628351b1-0379-4c9d-8074-479ffd99eb31
+[AndroidDriver] Java version is: 1.8.0_102
+
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from E:\Personal\Katalon_Latest 4.7.1\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 4baec80d
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from E:\Personal\Katalon_Latest 4.7.1\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[BaseDriver] Using local app 'C:\Users\User\Katalon Studio\Scroll Project\Data Files\ApiDemos.apk'
+[AndroidDriver] Starting Android session
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from E:\Personal\Katalon_Latest 4.7.1\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Cannot read version codes of C:\Users\User\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from E:\Personal\Katalon_Latest 4.7.1\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[AndroidDriver] Remote apk path is /data/local/tmp/c651f3c857d9320dc2cbd3fdc560ca7d.apk
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[Appium] New AndroidDriver session created successfully, session 628351b1-0379-4c9d-8074-479ffd99eb31 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 24889 ms - 1045 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 7 ms - 83 
+[HTTP] --> GET /wd/hub/session/628351b1-0379-4c9d-8074-479ffd99eb31/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/628351b1-0379-4c9d-8074-479ffd99eb31/source 200 261 ms - 8236 
+[HTTP] --> GET /wd/hub/session/628351b1-0379-4c9d-8074-479ffd99eb31/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/628351b1-0379-4c9d-8074-479ffd99eb31/screenshot 200 1681 ms - 59346 
+[HTTP] --> GET /wd/hub/session/628351b1-0379-4c9d-8074-479ffd99eb31/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/628351b1-0379-4c9d-8074-479ffd99eb31/source 200 90 ms - 10350 
+[HTTP] --> GET /wd/hub/session/628351b1-0379-4c9d-8074-479ffd99eb31/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/628351b1-0379-4c9d-8074-479ffd99eb31/screenshot 200 2010 ms - 141142 
+[HTTP] --> DELETE /wd/hub/session/628351b1-0379-4c9d-8074-479ffd99eb31 {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[ADB] No uiautomator process found to kill, continuing...
+[Appium] Removing session 628351b1-0379-4c9d-8074-479ffd99eb31 from our master session list
+[HTTP] <-- DELETE /wd/hub/session/628351b1-0379-4c9d-8074-479ffd99eb31 200 3106 ms - 76 
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 54243
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 54245
+[Appium]   tmpDir: C:\Users\User\AppData\Local\Temp\\Katalon\Appium\Temp1503503154625
+[Appium] Appium REST http interface listener started on 0.0.0.0:54243
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 22 ms - 83 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 11 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\User\\Katalon Studio\\Scroll Project\\Data Files\\ApiDemos.apk","noReset":true,"newCommandTimeout":1800,"udid":"4baec80d","platformName":"Android","deviceName":"samsung SM-G530H 5.0.2","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   app: 'C:\\Users\\User\\Katalon Studio\\Scroll Project\\Data Files\\ApiDemos.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   udid: '4baec80d'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-G530H 5.0.2'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 2d72c15b-7747-40b8-8943-71bc10d634b3
+[AndroidDriver] Java version is: 1.8.0_102
+
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from E:\Personal\Katalon_Latest 4.7.1\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 4baec80d
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from E:\Personal\Katalon_Latest 4.7.1\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[BaseDriver] Using local app 'C:\Users\User\Katalon Studio\Scroll Project\Data Files\ApiDemos.apk'
+[AndroidDriver] Starting Android session
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from E:\Personal\Katalon_Latest 4.7.1\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Cannot read version codes of C:\Users\User\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from E:\Personal\Katalon_Latest 4.7.1\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[AndroidDriver] Remote apk path is /data/local/tmp/c651f3c857d9320dc2cbd3fdc560ca7d.apk
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[Appium] New AndroidDriver session created successfully, session 2d72c15b-7747-40b8-8943-71bc10d634b3 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 24414 ms - 1045 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 8 ms - 83 
+[HTTP] --> GET /wd/hub/session/2d72c15b-7747-40b8-8943-71bc10d634b3/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/2d72c15b-7747-40b8-8943-71bc10d634b3/source 200 335 ms - 8235 
+[HTTP] --> GET /wd/hub/session/2d72c15b-7747-40b8-8943-71bc10d634b3/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/2d72c15b-7747-40b8-8943-71bc10d634b3/screenshot 200 1805 ms - 57958 
+[HTTP] --> GET /wd/hub/session/2d72c15b-7747-40b8-8943-71bc10d634b3/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/2d72c15b-7747-40b8-8943-71bc10d634b3/source 200 117 ms - 10350 
+[HTTP] --> GET /wd/hub/session/2d72c15b-7747-40b8-8943-71bc10d634b3/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/2d72c15b-7747-40b8-8943-71bc10d634b3/screenshot 200 2018 ms - 139686 
+[HTTP] --> DELETE /wd/hub/session/2d72c15b-7747-40b8-8943-71bc10d634b3 {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[ADB] No uiautomator process found to kill, continuing...
+[Appium] Removing session 2d72c15b-7747-40b8-8943-71bc10d634b3 from our master session list
+[HTTP] <-- DELETE /wd/hub/session/2d72c15b-7747-40b8-8943-71bc10d634b3 200 3103 ms - 76 
